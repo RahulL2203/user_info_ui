@@ -31,7 +31,7 @@ const UserData:React.FC =()=> {
   return (
     <>
       {userData ? (
-        <div className="m-2 p-2 border border-blue-300 w-1/2 rounded-xl justify-center mx-80 my-40 bg-slate-100">
+        <div className="m-2 p-2 border border-blue-300 rounded-xl justify-center lg:mx-80 my-40 bg-slate-100 w-auto">
           <p ><span className="text-lg font-bold">Name:</span>{userData.name}</p>
           <p ><span className="text-lg font-bold">Email:</span>{userData.email}</p>
         
