@@ -38,7 +38,7 @@ const UserData:React.FC =()=> {
           <button className="m-2 p-1 border border-blue-400 bg-green-400 rounded-lg text-white" onClick={fetchUserData}>Refresh</button>
         </div>
       ) : (
-        <p className="text-xl font-bold mx-64 my-40">Loading...</p>
+        <p className="text-xl font-bold lg:mx-80 my-56 w-auto">Loading...</p>
       )}
     </>
   );
