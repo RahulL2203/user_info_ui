@@ -31,14 +31,14 @@ const UserData:React.FC =()=> {
   return (
     <>
       {userData ? (
-        <div className="m-2 p-2 border border-blue-300 rounded-xl justify-center lg:mx-80 my-40 bg-slate-100 w-auto">
+        <div className="m-2 p-2 border border-blue-300 rounded-xl justify-center bg-slate-100 w-96">
           <p ><span className="text-lg font-bold">Name:</span>{userData.name}</p>
           <p ><span className="text-lg font-bold">Email:</span>{userData.email}</p>
         
           <button className="m-2 p-1 border border-blue-400 bg-green-400 rounded-lg text-white" onClick={fetchUserData}>Refresh</button>
         </div>
       ) : (
-        <p className="text-xl font-bold lg:mx-80 my-56 w-auto">Loading...</p>
+        <p className="text-xl font-bold lg:mx-11 my-56 w-auto">Loading...</p>
       )}
     </>
   );
